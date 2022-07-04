@@ -1,0 +1,1 @@
+<img src="factorial.PNG" alt="output">

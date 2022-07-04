@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    height: 100%;
+    grid-template-areas: 'header header header header' 'main main main main' ;
+}
+header{
+    background-color: black;
+    grid-area: header;
+    padding: 10px;
+    color: white;
+}
+
+main{
+
+    grid-area: main;
+    height:250px;
+    padding: 100px;
+    background-image: url(https://wallpaperaccess.com/full/682419.jpg);
+}
+

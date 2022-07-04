@@ -1,0 +1,1 @@
+<img src="assignment operator program.PNG" alt="output">

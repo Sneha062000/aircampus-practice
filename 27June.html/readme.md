@@ -1,0 +1,1 @@
+<img src="given range.PNG" alt="output">

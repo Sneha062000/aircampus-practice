@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    height: 100%;
+    grid-template-areas: 'header header header header' 'main main main aside' 'footer footer footer footer';
+}
+header{
+    background-color: rgb(41, 41, 90);
+    grid-area: header;
+    padding: 20px;
+}
+.h1{
+    justify-content: center;
+}
+.button1{
+    color: white;
+    background-color: rgb(87, 202, 87);
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button3{
+    color: white;
+    background-color: rgb(59, 111, 141);
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+main{
+
+    grid-area: main;
+    height:250px;
+    padding: 50px;
+    align-items: center;
+
+}
+aside{
+
+    grid-area: aside; 
+     padding: 10px;
+}
+footer{
+    background-color: rgb(41, 41, 90);
+    grid-area: footer;
+    padding: 10px;
+    
+}

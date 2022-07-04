@@ -1,0 +1,1 @@
+<img src="ques 1&2.PNG" alt="output">

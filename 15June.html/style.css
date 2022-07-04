@@ -1,0 +1,21 @@
+.container {
+    width: 960px;
+    height: auto;
+    background: rgb(116, 116, 190);
+  }
+  
+  .span1 {
+   
+    width: 24.6px;
+    height: auto;
+  }
+  
+  
+  .circle {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding: 100%;
+    background: white;
+  }

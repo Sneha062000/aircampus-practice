@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 'header header header header' 'sidebar main main main' 'footer footer footer footer';
+    
+
+}
+header{
+    grid-area: header;
+   background-color: aqua;
+}
+aside{
+    grid-area: sidebar;
+    background-color: brown;
+}
+main{
+    grid-area: main;
+    background-color: blueviolet;
+}
+footer{
+    grid-area: footer;
+    background-color: blue;
+}

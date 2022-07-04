@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: pink;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color:white;
+}
+
+.item1 {
+  grid-column: 1 / 7;
+}
