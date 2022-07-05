@@ -11,13 +11,26 @@ let names = ['sneha','shinde','sneha','shinde']
 
 
 //sneha family
+// let snehafamily={
+//     name :'sneha',
+//     age:21,
+//     location:'Nashik',
+//  brother:{
+//     name:'Rajesh',
+//     age:19
+//  }
+// }
+// console.log(snehafamily);
+
+
+//sneha family brother name
 let snehafamily={
-    name :'sneha',
-    age:21,
-    location:'Nashik',
- brother:{
-    name:'Rajesh',
-    age:19
- }
+   name :'sneha',
+   age:21,
+   location:'Nashik',
+brother:{
+   name:'Rajesh',
+   age:19
 }
-console.log(snehafamily);
+}
+console.log(snehafamily.brother.name);
