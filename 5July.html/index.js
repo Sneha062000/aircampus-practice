@@ -6,7 +6,10 @@
 // //js is basically increasing and decreasing memory spaces
 
 //how to store all the peoples name
-let names = ['sneha','shinde','sneha','shinde']
+let names = ['sneha','shinde','sneha1','shinde1']
+
+console.log(names[1]);
+//the keys are automatically allocated
 //all the arrays are named in plural
 
 
@@ -24,13 +27,13 @@ let names = ['sneha','shinde','sneha','shinde']
 
 
 //sneha family brother name
-let snehafamily={
-   name :'sneha',
-   age:21,
-   location:'Nashik',
-brother:{
-   name:'Rajesh',
-   age:19
-}
-}
-console.log(snehafamily.brother.name);
+// let snehafamily={
+//    name :'sneha',
+//    age:21,
+//    location:'Nashik',
+// brother:{
+//    name:'Rajesh',
+//    age:19
+// }
+// }
+// console.log(snehafamily.brother.name);
