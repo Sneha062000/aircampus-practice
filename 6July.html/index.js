@@ -59,23 +59,23 @@
 
 
 
-let num = [1,2,3,4,5]
-
-delete num
-
-console.log(num);
-
-
-
 // let num = [1,2,3,4,5]
 
-// num.splice(2,0,'sneha');
+// delete num
 
 // console.log(num);
 
 
-// let num = [1,2,3,4,5]
 
-// num.splice(2,1,'sneha');
-
-// console.log(num); 
+let num = [1,2,3,4,5]
+// 
+num.splice(2,0,'sneha');
+// 
+console.log(num);
+// 
+// 
+let num1 = [1,2,3,4,5]
+// 
+num1.splice(2,1,'sneha');
+// 
+console.log(num1); 
