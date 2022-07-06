@@ -5,6 +5,10 @@
 // console.log(num);
 // //js is basically increasing and decreasing memory spaces
 
+
+
+
+
 //how to store all the peoples name
 // let names = ['sneha','shinde','sneha1','shinde1']
 
@@ -14,10 +18,17 @@
 
 
 
-let names = ['sneha','10','true',{
-   name:'sneha'
-}]
- console.log(names);
+
+
+// let names = ['sneha','10','true',{
+//    name:'sneha'
+// }]
+//  console.log(names);
+
+
+
+
+
 
 //sneha family
 // let snehafamily={
@@ -32,6 +43,10 @@ let names = ['sneha','10','true',{
 // console.log(snehafamily);
 
 
+
+
+
+
 //sneha family brother name
 // let snehafamily={
 //    name :'sneha',
@@ -43,3 +58,9 @@ let names = ['sneha','10','true',{
 // }
 // }
 // console.log(snehafamily.brother.name);
+
+
+
+
+
+
