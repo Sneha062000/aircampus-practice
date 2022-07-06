@@ -39,31 +39,31 @@
 
 
 
-//.............................queue in arrays
-let num = [1,2,3,4,5]
-
- console.log(num);
-
- num.unshift('sneha')
-
- console.log( num);
-
-num.shift()
-num.shift()
-
-console.log(num);
-
-
-
-
-
-
-
+// //.............................queue in arrays
 // let num = [1,2,3,4,5]
 
-// delete num
+//  console.log(num);
+
+//  num.unshift('sneha')
+
+//  console.log( num);
+
+// num.shift()
+// num.shift()
 
 // console.log(num);
+
+
+
+
+
+
+
+let num = [1,2,3,4,5]
+
+delete num
+
+console.log(num);
 
 
 
