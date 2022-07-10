@@ -30,9 +30,14 @@
 // console.log(names.join('------'));
 
 
+// let names=['sneha','manoj','shinde'];
+// let nums=[1,2,3];
+// console.log(names.concat(nums));
+
+
 let names=['sneha','manoj','shinde'];
 let nums=[1,2,3];
-console.log(names.concat(nums));
+console.log(names.join(nums));
 
 
 
