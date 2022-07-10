@@ -25,6 +25,14 @@
 
 
 
-let names=['sneha','manoj','shinde'];
+// let names=['sneha','manoj','shinde'];
 
-console.log(names.join('------'));
+// console.log(names.join('------'));
+
+
+let names=['sneha','manoj','shinde'];
+let nums=[1,2,3];
+console.log(names.concat(nums));
+
+
+
