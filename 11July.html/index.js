@@ -49,21 +49,36 @@
 // console.log(min);
 
 
+// let num = [1,2,3,4,5,6,7,8];
+
+//  console.log(num);
+
+//  num.push('sneha')
+
+//  console.log('adding', num);
+
+// console.log(num.pop());
+
+// console.log('popping',num);
+
+// console.log(num.pop());
+
+// console.log('popping',num);
+
+
 let num = [1,2,3,4,5,6,7,8];
 
  console.log(num);
 
- num.push('sneha')
+ num.unshift('sneha')
 
- console.log('adding', num);
+ console.log( num);
 
-console.log(num.pop());
+num.shift()
+//num.shift()
 
-console.log('popping',num);
+console.log(num);
 
-console.log(num.pop());
-
-console.log('popping',num);
 
 
 
