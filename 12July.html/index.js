@@ -6,5 +6,6 @@ function oddOne(arr1, arr2){
       return b.sort((c,d)=>{
         return d-c;
       });
+      
     }
     console.log(oddOne([1,2,3,4,5],[1,2,3]));
