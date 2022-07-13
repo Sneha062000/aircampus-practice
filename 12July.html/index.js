@@ -10,11 +10,11 @@
 //     }
 //     console.log(oddOne([1,2,3,4,5],[1,2,3]));
 
-function lostPlanet(planets){
-    for(let i=0;i<planets.length;i++){
-      if(planets.includes(i)==false){
-        return i;
-      }
-    }
-  }
-  console.log(lostPlanet([1,5,7,8,3,0,2,6]));
+// function lostPlanet(planets){
+//     for(let i=0;i<planets.length;i++){
+//       if(planets.includes(i)==false){
+//         return i;
+//       }
+//     }
+//   }
+//   console.log(lostPlanet([1,5,7,8,3,0,2,6]));
