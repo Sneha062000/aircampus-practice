@@ -1,5 +1,6 @@
-// let names ='sneha manoj shinde';
+ let names ='sneha manoj shinde';
 //  console.log(names.substring(5,11));
+console.log(names.slice(5,11));
 
 
 
@@ -29,5 +30,5 @@
 // }
 // console.log(reversedName);
 
-let names = "my name is sneha";
-console.log(names.match(/is/));
+// let names = "my name is sneha";
+// console.log(names.match(/is/));
