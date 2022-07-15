@@ -139,20 +139,22 @@
 
 
 // first row sum
-let matrix = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
-    [9, 10,11,12],
-    [13,14,15,16]
-]
-let rows = matrix.length;
-let cols=0;
-let sum = 0;
-for (let i = 0; i < rows; i++) {
-    sum += matrix[cols][i]
-}
-console.log(sum);
+// let matrix = [
+//     [1, 2, 3, 4],
+//     [5, 6, 7, 8],
+//     [9, 10,11,12],
+//     [13,14,15,16]
+// ]
+// let rows = matrix.length;
+// let cols=0;
+// let sum = 0;
+// for (let i = 0; i < rows; i++) {
+//     sum += matrix[cols][i]
+// }
+// console.log(sum);
 
 
-// let names ='sneha manoj shinde';
-// console.log(names.substring(5,11));
+
+
+
+
