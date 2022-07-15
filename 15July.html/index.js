@@ -3,6 +3,13 @@
 
 
 
-let news = "hello sneha";
-let target = "sneha";
-console.log(news.includes(target));
+// let news = "hello sneha";
+// let target = "sneha";
+// console.log(news.includes(target));
+
+let email ="sneha@gmail.com";
+if(email.endsWith("@gmail.com")){
+    console.log("valid email")
+}else{
+    console.log("invalid email")
+}
