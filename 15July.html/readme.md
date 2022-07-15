@@ -1,0 +1,1 @@
+<img src="substring.PNG" alt="output">
