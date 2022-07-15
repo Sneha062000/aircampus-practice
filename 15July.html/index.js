@@ -22,9 +22,12 @@
 // }
 
 
-let names ="sneha";
-let reversedName = "";
-for(let i=names.length -1; i>=0; i--){
-    reversedName += names[i];
-}
-console.log(reversedName);
+// let names ="sneha";
+// let reversedName = "";
+// for(let i=names.length -1; i>=0; i--){
+//     reversedName += names[i];
+// }
+// console.log(reversedName);
+
+let names = "my name is sneha";
+console.log(names.match(/is/));
