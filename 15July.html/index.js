@@ -14,9 +14,17 @@
 //     console.log("invalid email")
 // }
 
-let mobile_no = '9712345667';
-if(mobile_no.length == 10){
-    console.log("valid no")
-}else{
-    console.log("invalid no")
+// let mobile_no = '9712345667';
+// if(mobile_no.length == 10){
+//     console.log("valid no")
+// }else{
+//     console.log("invalid no")
+// }
+
+
+let names ="sneha";
+let reversedName = "";
+for(let i=names.length -1; i>=0; i--){
+    reversedName += names[i];
 }
+console.log(reversedName);
