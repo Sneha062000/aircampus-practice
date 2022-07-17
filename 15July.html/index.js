@@ -1,6 +1,6 @@
- let names ='sneha manoj shinde';
-//  console.log(names.substring(5,11));
-console.log(names.slice(5,11));
+//  let names ='sneha manoj shinde';
+// //  console.log(names.substring(5,11));
+// console.log(names.slice(5,11));
 
 
 
