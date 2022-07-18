@@ -1,5 +1,5 @@
-let fname = 'sneha';
-console.log(typeof fname);
+// let fname = 'sneha';
+// console.log(typeof fname);
 
 
 // let fname=[1,2,3]
@@ -118,3 +118,33 @@ console.log(typeof fname);
 //         direction = 0
 //     }
 //   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
