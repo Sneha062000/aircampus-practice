@@ -1,14 +1,14 @@
-function createPerson(fullName,job,place){
-   return {
-        fullName:fullName,
-        job  : job,
-        place : place,
+// function createPerson(fullName,job,place){
+//    return {
+//         fullName:fullName,
+//         job  : job,
+//         place : place,
 
-    };
-}
-let sneha =  createPerson('sneha','student','Nashik');
-let karishma =  createPerson('karishma','student','Nashik');
-console.log(sneha,karishma.job);
+//     };
+// }
+// let sneha =  createPerson('sneha','student','Nashik');
+// let karishma =  createPerson('karishma','student','Nashik');
+// console.log(sneha,karishma.job);
 
 
 
@@ -39,3 +39,4 @@ console.log(sneha,karishma.job);
 
 // let circle1 =  new Circle(200);
 // console.log(circle1,circle.draw());
+
