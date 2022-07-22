@@ -76,3 +76,56 @@
 //     console.log(i);
 //     i++;
 // } while(i <= n)
+
+
+// //Fibonacci series
+// let i = 0, j = 1, k;
+// 		console.log("Fibonacci series less than 50");
+// 		while(i<50)
+// 		{
+// 			console.log(i);
+// 			k = i+j;
+// 			i = j;
+// 			j = k;
+// 		}
+
+
+// let arr=[1,2,3,4,5,6,7,8,9,10];
+// let a=arr.length;
+// console.log(a);
+
+
+ 
+//   let num = [1,2,3,4,5,6,7]
+
+// //  print first element and last element
+
+//  console.log(num[0], num[num.length -1]);
+ 
+
+// let num = [1,2,3,4,5]
+
+//  console.log(num);
+
+//  num.push('sneha')
+
+//  console.log('adding', num);
+
+// console.log(num.pop());
+
+// console.log('popping',num);
+
+// console.log(num.pop());
+
+// console.log('popping',num);
+
+
+
+let num = [1,2,3,4,5]
+console.log(num);
+num.unshift('sneha')
+ console.log( num);
+num.shift()
+num.shift()
+console.log(num);
+
