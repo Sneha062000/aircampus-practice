@@ -121,11 +121,24 @@
 
 
 
-let num = [1,2,3,4,5]
-console.log(num);
-num.unshift('sneha')
- console.log( num);
-num.shift()
-num.shift()
-console.log(num);
+// let num = [1,2,3,4,5]
+// console.log(num);
+// num.unshift('sneha')
+//  console.log( num);
+// num.shift()
+// num.shift()
+// console.log(num);
 
+// let  animal="dog";
+// switch(animal){
+//     case "cat":
+//        console.log("cat");
+//         break;
+//     case "dog":
+//       console.log("dog no");
+//       break;
+//     default:
+//         console.log("no match")
+//         break;
+// }
+// //console.log(animal)
