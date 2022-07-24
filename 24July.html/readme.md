@@ -1,0 +1,1 @@
+<img src="palindrome.PNG" alt="output">
