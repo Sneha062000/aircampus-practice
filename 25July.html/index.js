@@ -19,10 +19,23 @@
 //   console.log(person["firstname"] + " is " + person["age"] + " years old.");
 
 
-let person = {
-    firstname: "Sneha",
-    lastname: "Shinde",
+// let person = {
+//     firstname: "Sneha",
+//     lastname: "Shinde",
+//     age: 50,
+//   };
+//   delete person.lastname
+//   console.log(person);
+
+
+ person = {
+    name: "sneha",
+    lastname: "shinde",
     age: 50,
-  };
-  delete person.lastname
-  console.log(person);
+    brother: {
+    name: "rajesh",
+    lastname: "shinde",
+    age: 30
+    }
+  }
+  console.log(person.brother.age)
