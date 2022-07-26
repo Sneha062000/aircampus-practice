@@ -4,10 +4,23 @@
 // console.log(num1,num2)
 
 
-//object destructuring
+// //object destructuring
+// let obj = {
+//     name: "sneha shinde",
+//     profession: "student in aircampus"
+// };
+// let { name, profession} = obj;
+// console.log(name,profession)
+
+
+
+
 let obj = {
-    name: "sneha shinde",
-    profession: "student in aircampus"
+    fname: "sneha",
+    class: "javascript",
+    profession: "student in aircampus",
 };
-let { name, profession} = obj;
-console.log(name,profession)
+
+
+let { fname, ...rest } = obj;
+console.log(fname, rest);
