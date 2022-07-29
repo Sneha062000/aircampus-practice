@@ -36,6 +36,11 @@
 // console.log(min)
 
 
+// let nums = [1,2,5,2,7,8,9]
+// nums.sort()
+// console.log(nums);
+
+
 let nums = [1,2,5,2,7,8,9]
-nums.sort()
-console.log(nums);
+nums.sort((a,b) => a-b);
+console.log(nums[nums.length-1]);
