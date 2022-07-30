@@ -41,6 +41,18 @@
 // console.log(nums);
 
 
-let nums = [1,2,5,2,7,8,9]
-nums.sort((a,b) => a-b);
-console.log(nums[nums.length-1]);
+// let nums = [1,2,5,2,7,8,9]
+// nums.sort((a,b) => a-b);
+// console.log(nums[nums.length-1]);
+
+
+
+// let nums = [1,2,5,2,7,8,9]
+// nums.sort((a,b) => a-b);
+// console.log(nums);
+
+
+let nums = [1,2,3]
+let SquaredNums = nums.filter(function(num){
+    return nums > 2;
+})
