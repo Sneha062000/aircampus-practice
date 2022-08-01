@@ -132,3 +132,29 @@
 // console.log(a,b)
 
 
+//comparision operator
+//equality operator
+// let a="10",b=10;
+// console.log(a==b)
+
+//strict equality operator
+//===  compares equality of two operands with type
+// let a="10",b=10;
+// console.log(a===b)
+
+
+//not equal operator
+// let a=10,b=10;
+// console.log(a!=b)
+
+//Greater than operator
+// let a=10,b=5;
+// console.log(a>b)
+
+//less than operator
+// let a=10,b=5;
+// console.log(a<b)
+
+//greater than or equal than
+// let a=10,b=5;
+// console.log(a<=b)
