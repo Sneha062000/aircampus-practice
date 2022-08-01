@@ -90,3 +90,45 @@
 //     }
 // }
 // console.log(student)
+
+
+
+//Arithmetic operators
+//add
+// let a=10,b=5;
+// let c=a+b;
+// console.log(c)
+
+//sub
+// let a=10,b=5;
+// let c=a-b;
+// console.log(c)
+
+//multiply
+// let a=10,b=5;
+// let c=a*b;
+// console.log(c)
+
+//divide
+// let a=10,b=5;
+// let c=a/b;
+// console.log(c)
+
+//modules
+// let a=10,b=5;
+// let c=a%b;
+// console.log(c)
+
+//Increment operator
+//  let a=10,b=5;
+// a++;
+// b++
+// console.log(a,b)
+
+// //Decrement operator
+//  let a=10,b=5;
+// a--;
+// b--;
+// console.log(a,b)
+
+
