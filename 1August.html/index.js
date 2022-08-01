@@ -202,3 +202,9 @@
 // let a=2;
 // a%=5
 // console.log(a)
+
+
+//Ternary operator
+// let a = 10;
+// let b = 5;
+// (a>b) ? console.log("a is greater than b"):console.log("b is greater than a")
