@@ -171,3 +171,34 @@
 //not operator
 // let a=10,b=10;
 // console.log(!(a==b))
+
+
+//Assignment operator
+// let a=10;
+// let b=a;
+// console.log(b);
+
+//addition assignment operotator
+// let a=10;
+// a+=1
+// console.log(a)
+
+//substraction assignment operotator
+// let a=10;
+// a-=1
+// console.log(a)
+
+//multiplication assignment operotator
+// let a=10;
+// a*=2
+// console.log(a)
+
+//Division assignment operotator
+// let a=4;
+// a/=6
+// console.log(a)
+
+//Modulo assignment operotator
+// let a=2;
+// a%=5
+// console.log(a)
