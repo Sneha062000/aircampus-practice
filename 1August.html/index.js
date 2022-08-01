@@ -74,3 +74,19 @@
 // //console.log(student)
 // console.log(student.name)
 // console.log(student["name"])
+
+
+// //nested object
+// //inside another object is called nested object
+// let student ={
+//     name:"sneha",
+//     experience:"fresher",
+//     age:100,
+//     declaration:true,
+//     language:{
+//        html:"70%",
+//        css:"60%",
+//        javascript:"10%"
+//     }
+// }
+// console.log(student)
