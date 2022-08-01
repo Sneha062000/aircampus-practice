@@ -54,3 +54,23 @@
 // console.log(sym1===sym2)
 // //console.log(typeof sym1)
 // //console.log(typeof sym2)
+
+
+// Non primitive data types objects
+// syntax:
+// let object_name={
+//     key1:value1,
+//     key2:value2
+// }
+
+//object
+// let student ={
+//     name:"sneha",
+//     experience:"fresher",
+//     age:100,
+//     declaration:true,
+//     languages_known: "",
+// }
+// //console.log(student)
+// console.log(student.name)
+// console.log(student["name"])
