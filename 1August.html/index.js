@@ -158,3 +158,16 @@
 //greater than or equal than
 // let a=10,b=5;
 // console.log(a<=b)
+
+//logical operators
+//and operator
+// let a=10,b=5;
+// console.log((a>b)&&(a>b))
+
+//or operator
+// let a=10,b=5;
+//  console.log((a>b)||(a=b))
+
+//not operator
+// let a=10,b=10;
+// console.log(!(a==b))
