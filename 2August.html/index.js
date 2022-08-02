@@ -116,3 +116,16 @@
 // for(let i=0;i<=10;i++){
 //     console.log(i)
 // }
+
+
+//Function
+//syntax
+//function  functionName(){
+    //code to be executed
+//}
+
+
+function Myself(name,city){
+    console.log(`My name is ${name}.I am from ${city}`)
+}
+Myself("Sneha","city")
