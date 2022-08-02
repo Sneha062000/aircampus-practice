@@ -60,3 +60,21 @@
 // }else{
 //     console.log("no match")
 // }
+
+
+//switch statement
+// let name = "sneha"
+// switch ("sneha"){
+//     case "sneha" : 
+//     console.log("my name is sneha");
+//     break;
+//     case "karishma" : 
+//     console.log("my name is karishma");
+//     break;
+//     case "tejal" : 
+//     console.log("my name is tejal");
+//     break;
+//     default : 
+//     console.log("no match");
+//     break;
+// }
