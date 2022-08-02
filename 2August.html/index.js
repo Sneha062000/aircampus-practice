@@ -78,3 +78,41 @@
 //     console.log("no match");
 //     break;
 // }
+
+
+
+//loops
+//syntax
+//while(condition){
+//block of code to be executed
+//}
+
+//while
+// let i=0;
+// while(i<=10){
+//     console.log(i)
+//     i++;
+// }
+
+
+//do{
+//    code to be executed
+//}
+//while(condition)
+
+// let i=0;
+// do{
+//     console.log(i)
+//     i++;
+// }
+// while(i<=10)
+
+//for loop
+//syntax
+//for([counter initialization];[condition];counter update){
+  //  statement to be executed
+//}
+
+// for(let i=0;i<=10;i++){
+//     console.log(i)
+// }
