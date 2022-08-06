@@ -14,10 +14,10 @@
 // }
 
 
-//factorial of 10
-let f=10;
-let fact=1;
-for(i=f; i>=1;i--){
-    fact=fact*i;
-}
-console.log("factorial of 10 is :"+ fact);
+// //factorial of 10
+// let f=10;
+// let fact=1;
+// for(i=f; i>=1;i--){
+//     fact=fact*i;
+// }
+// console.log("factorial of 10 is :"+ fact);
