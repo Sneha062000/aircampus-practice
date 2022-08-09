@@ -29,17 +29,28 @@
 // console.log(count);
 
 
-function counter(){
-    let count = 1;
-    return function(){
-        if(count % 3 ===0){
-        console.log("printing");
-        }
-        count +=1;
-    };
-}
-let count = counter();
-count();
-count();
-count();
+// function counter(){
+//     let count = 1;
+//     return function(){
+//         if(count % 3 ===0){
+//         console.log("printing");
+//         }
+//         count +=1;
+//     };
+// }
+// let count = counter();
+// count();
+// count();
+// count();
 
+
+let count = 1;
+function counter(){
+    if(count % 3 === 0){
+    console.log("counting")
+}
+count+=1;
+}
+counter();
+counter();
+counter();
