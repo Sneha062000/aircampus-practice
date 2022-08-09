@@ -44,13 +44,26 @@
 // count();
 
 
-let count = 1;
-function counter(){
-    if(count % 3 === 0){
-    console.log("counting")
+// let count = 1;
+// function counter(){
+//     if(count % 3 === 0){
+//     console.log("counting")
+// }
+// count+=1;
+// }
+// counter();
+// counter();
+// counter();
+
+let username = "sneha";
+let password = "1234";
+
+function getCredentials(){
+    return{
+        username: username,
+        password: password,
+    };
 }
-count+=1;
-}
-counter();
-counter();
-counter();
+console.log(getCredentials());
+username= "shinde";
+console.log(getCredentials());
