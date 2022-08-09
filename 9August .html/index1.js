@@ -55,15 +55,15 @@
 // counter();
 // counter();
 
-let username = "sneha";
-let password = "1234";
+// let username = "sneha";
+// let password = "1234";
 
-function getCredentials(){
-    return{
-        username: username,
-        password: password,
-    };
-}
-console.log(getCredentials());
-username= "shinde";
-console.log(getCredentials());
+// function getCredentials(){
+//     return{
+//         username: username,
+//         password: password,
+//     };
+// }
+// console.log(getCredentials());
+// username= "shinde";
+// console.log(getCredentials());
