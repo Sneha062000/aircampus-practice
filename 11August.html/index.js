@@ -5,19 +5,19 @@
 // and in partial applications, currying, and other functional programming patterns
 
 //outer function Counter returns the reference of inner function IncreaseCounter().
-function Counter() {
-    var counter = 0;
+// function Counter() {
+//     var counter = 0;
 
-    function IncreaseCounter() {
-        return counter += 1;
-    };
+//     function IncreaseCounter() {
+//         return counter += 1;
+//     };
 
-    return IncreaseCounter;
-}
+//     return IncreaseCounter;
+// }
 
-var counter = Counter();
-console.log(counter()); 
-console.log(counter()); 
-console.log(counter()); 
-console.log(counter()); 
-console.log(counter()); 
+// var counter = Counter();
+// console.log(counter()); 
+// console.log(counter()); 
+// console.log(counter()); 
+// console.log(counter()); 
+// console.log(counter()); 
