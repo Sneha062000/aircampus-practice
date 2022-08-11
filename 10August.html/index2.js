@@ -6,12 +6,12 @@
 //} recurse();
 
 
-function numbers(n){
-    if(n > 5){
-        return;
-    }
-    console.log(n);
-    numbers(n + 1);
-}
+// function numbers(n){
+//     if(n > 5){
+//         return;
+//     }
+//     console.log(n);
+//     numbers(n + 1);
+// }
 
-console.log(numbers(1));
+// console.log(numbers(1));
