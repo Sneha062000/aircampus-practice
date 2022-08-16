@@ -47,22 +47,42 @@
 
 
 
-Promise.resolve(1)
-  .then(() => console.log("promise1 resol"))
-  .catch((err) => console.log("catching 1 promise"));
-Promise.resolve(1).then(() => console.log("promise2"));
-Promise.resolve(1).then(() => console.log("promise3"));
-Promise.resolve(1).then(() => console.log("promise4"));
-Promise.resolve(1).then(() => console.log("promise1"));
-Promise.resolve(1).then(() => console.log("promise2"));
-Promise.resolve(1).then(() => console.log("promise3"));
-Promise.resolve(1).then(() => console.log("promise4"));
-Promise.resolve(1).then(() => console.log("promise1"));
-Promise.resolve(1).then(() => console.log("promise2"));
-Promise.resolve(1).then(() => console.log("promise3"));
-Promise.resolve(1).then(() => console.log("promise4"));
-Promise.resolve(1).then(() => console.log("promise1"));
-Promise.resolve(1).then(() => console.log("promise2"));
-Promise.resolve(1).then(() => console.log("promise3"));
-Promise.resolve(1).then(() => console.log("promise4"));
-console.log("end");
+// Promise.resolve(1)
+//   .then(() => console.log("promise1 resol"))
+//   .catch((err) => console.log("catching 1 promise"));
+// Promise.resolve(1).then(() => console.log("promise2"));
+// Promise.resolve(1).then(() => console.log("promise3"));
+// Promise.resolve(1).then(() => console.log("promise4"));
+// Promise.resolve(1).then(() => console.log("promise1"));
+// Promise.resolve(1).then(() => console.log("promise2"));
+// Promise.resolve(1).then(() => console.log("promise3"));
+// Promise.resolve(1).then(() => console.log("promise4"));
+// Promise.resolve(1).then(() => console.log("promise1"));
+// Promise.resolve(1).then(() => console.log("promise2"));
+// Promise.resolve(1).then(() => console.log("promise3"));
+// Promise.resolve(1).then(() => console.log("promise4"));
+// Promise.resolve(1).then(() => console.log("promise1"));
+// Promise.resolve(1).then(() => console.log("promise2"));
+// Promise.resolve(1).then(() => console.log("promise3"));
+// Promise.resolve(1).then(() => console.log("promise4"));
+// console.log("end");
+
+
+//example shows how to use then() method of the Promise object returned by the getUsers() function:
+function getUsers() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve([
+          { username: 'sneha', email: 'sneha@.com' },
+          { username: 'sneha', email: 'sneha@.com' },
+        ]);
+      }, 1000);
+    });
+  }
+  
+  function onFulfilled(users) {
+    console.log(users);
+  }
+  
+  const promise = getUsers();
+  promise.then(onFulfilled);
