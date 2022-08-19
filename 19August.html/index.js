@@ -83,3 +83,32 @@
 //   }
 //   var sayHelloClosure = sayHello(); 
 //   sayHelloClosure(); 
+
+
+
+//promises
+//promises are used to handle asynchronous operations in JavaScript. 
+//They are easy to manage when dealing with multiple asynchronous operations 
+//where callbacks can create callback hell leading to unmanageable code. 
+
+//create a Promise
+// let promise = new Promise(function(resolve, reject){
+//     //code
+// });
+
+// let promise = new Promise(function(resolve, reject) {
+//     resolve("I am done");
+// });
+
+// let promise = new Promise(function(resolve, reject) {
+//     reject(new Error('Something is not right!'));
+// });
+
+//.then method
+// var promise1 = new Promise((resolve, reject) => {
+//     resolve('Hello!');
+//   });
+  
+//   promise1.then((value) => {
+//     console.log(value);
+//   });
