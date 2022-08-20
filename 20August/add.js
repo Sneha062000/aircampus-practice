@@ -32,3 +32,25 @@
 //   }
   
 //   console.log(person.fullName.apply(person1, ["Nashik"])); 
+
+
+
+
+//call method
+// const person = {
+//     fullName: function(city) {
+//       return this.firstName + " " + this.lastName + "," + city;
+//     }
+//   }
+  
+//   const person1 = {
+//     firstName:"Sneha",
+//     lastName: "Shinde"
+//   }
+  
+//   const person2 = {
+//     firstName:"Rajesh",
+//     lastName: "Shinde"
+//   }
+  
+//   console.log(person.fullName.call(person2, "Nashik")); 
