@@ -32,5 +32,8 @@
   
 //   let myName = new MyName("sneha", 2012);
 //   console.log("My Name is " + myName.age() + " years old.")
+
+
+//Class Inheritance
   
   
