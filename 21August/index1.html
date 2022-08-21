@@ -19,12 +19,30 @@ Veritatis odio obcaecati Lorem ipsum, dolor sit amet consectetur adipisicing eli
 repellat vero, molestiae necessitatibus maxime totam dolores modi ratione debitis blanditiis perferendis 
 corrupti culpa. Ab velit perferendis corrupti?</pre>
 
+<h3 >HTML DOM</h3>
+
+<p class="p6">Hello World!</p>
+
+<p class="p6">Hello India!</p>
+
+<p class="p6">Click the button to change the color of all p elements.</p>
+
+<button onclick="myFunction()">Try it</button>
+
 <script>
 document.getElementById("p2").style.color = "red";
 document.getElementById("p2").style.fontFamily = "cursive";
 document.getElementById("p2").style.fontSize = "larger";
 document.getElementById("pre3").style.color = "black";
 document.getElementById("pre3").style.fontFamily = "fantasy";
+
+
+function myFunction() {
+  const myCollection = document.getElementsByClassName("p6");
+  for (let i = 0; i < myCollection.length; i++) {
+    myCollection[i].style.color = "red";
+  }
+}
 </script>
 </body>
 </html>
