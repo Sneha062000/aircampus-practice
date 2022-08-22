@@ -74,3 +74,8 @@
 // let snehaData = getData.bind(sneha, " Nashik");
 // //sanjanaData();
 // snehaData();
+
+
+
+
+
