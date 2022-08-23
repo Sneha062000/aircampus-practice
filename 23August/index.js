@@ -52,3 +52,16 @@
 // }
 
 
+
+//map
+// let persons = [
+//     {firstName : "Sneha", lastName: "Shinde"},
+//     {firstName : "Rajesh", lastName: "Shinde"},
+//     {firstName : "Sanjana", lastName: "Shinde"}
+//   ];
+  
+//   let personsFullnames = persons.map(function(e){
+//       return `${e.firstName} ${e.lastName}`;
+//   })
+  
+//   console.log(personsFullnames);
