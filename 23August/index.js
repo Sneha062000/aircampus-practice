@@ -6,7 +6,7 @@
 
 
 
-//todays session
+//yesterday's session
 // let arr = [[1,2,3],[4,5,6],[7,8,9]]
 
 // let n = arr.length
@@ -43,7 +43,7 @@
 // console.log('fileredArray' , filteredArray)
 
 // let obj = {
-//     name:"Avish",
+//     name:"sneha",
 //     age:[20,21,22],
 //     profesion:"Software Engineer"
 // }
@@ -52,8 +52,3 @@
 // }
 
 
-// let arrayOfObjects = [{name:'Avish',age:21} , {name:"Rahul" , age:17} , {name:"Karan" , age:20}]
-// let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
-//     return a["age"] >18
-// })
-// console.log(filteredArrayOfObjects)
