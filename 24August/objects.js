@@ -13,10 +13,25 @@
 
 
 // let person = {
-//     firstName : "snehs",
+//     firstName : "sneha",
 //     lastName  : "shinde",
 //     age     : 100,
 //     place  : "Nashik"
 //   };
   
-//   console.log(person.firstName + " " + person.lastName + " " + person.age + " " + person.place);
+//   console.log(person.firstName + " " + person.lastName + " I am  " + person.age + " years old  i live in " + person.place);
+
+
+
+
+  let person = {
+    firstName : "sneha",
+    lastName  : "shinde",
+    age     : 100,
+    place  : "Nashik"
+  };
+
+  const x = person;
+        x.age = 10;
+  
+  console.log(person.firstName + " " + person.lastName + " I am  " + person.age + " years old  i live in " + person.place);
