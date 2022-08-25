@@ -53,3 +53,41 @@
 
 // }
 
+
+//Map, reduce, and filter are all array methods in JavaScript.
+// The map() method is used for creating a new array from an existing one, 
+//applying a function to each one of the elements of the first array.
+// Syntax
+// var new_array = arr.map(function callback(element, index, array) {
+//     // Return value for new_array
+// }[, thisArg])
+
+// const numbers = [1, 2, 3, 4];
+// const doubled = numbers.map(item => item * 2);
+// console.log(doubled);
+
+
+
+// filter creates a new array by removing elements that don't belong. 
+
+// Syntax
+// var new_array = arr.filter(function callback(element, index, array) {
+//     // Return true or false
+// }[, thisArg])
+
+// const students = [
+//     { name: 'Sneha', grade: 96 },
+//     { name: 'Karishma', grade: 84 },
+//     { name: 'Tejal', grade: 100 },
+//     { name: 'Priya', grade: 65 },
+//     { name: 'Sakshi', grade: 90 }
+//   ];
+  
+//   const studentGrades = students.filter(student => student.grade >= 90);
+//   console.log(studentGrades);
+
+
+
+// reduce , on the other hand, takes all of the elements in an array and reduces them into a single value.
+//Syntax
+//arr.reduce(callback[, initialValue])
