@@ -92,7 +92,17 @@
 //Syntax
 //arr.reduce(callback[, initialValue])
 
-// var array = [1,2,3,4,5];
-// let answer = array.reduce((totalResult,currValue)=>     
-//              {return totalResult*currValue;});
-// console.log(answer);
+var array = [1,2,3,4,5];
+let answer = array.reduce((totalResult,currValue)=>     
+             {return totalResult*currValue;});
+console.log(answer);
+
+console.log("The answer should be doubled")
+let answer2 = array.reduce((totalResult,currValue)=>
+           {return totalResult*currValue;},2);
+console.log(answer2);
+
+console.log("The answer should be tripled")
+let answer3 = array.reduce((totalResult,currValue)=>
+           {return totalResult*currValue;},3);
+console.log(answer3);
