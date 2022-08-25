@@ -91,3 +91,8 @@
 // reduce , on the other hand, takes all of the elements in an array and reduces them into a single value.
 //Syntax
 //arr.reduce(callback[, initialValue])
+
+// var array = [1,2,3,4,5];
+// let answer = array.reduce((totalResult,currValue)=>     
+//              {return totalResult*currValue;});
+// console.log(answer);
