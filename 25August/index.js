@@ -112,3 +112,6 @@
 // let answer = array.reduce((totalResult,currValue)=>     
 //              {return totalResult-currValue;});
 // console.log(answer);
+
+
+
