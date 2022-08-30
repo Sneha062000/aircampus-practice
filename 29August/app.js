@@ -13,14 +13,14 @@
 //   console.log("My father is " + myFather.age + ". My mother is " + myMother.age); 
 
 
-function Person(first, last, age) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-  }
+// function Person(first, last, age) {
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//   }
   
-  Person.prototype.nationality = "Marathi";
+//   Person.prototype.nationality = "Marathi";
   
-  const myFather = new Person("Manoj", "Shinde", 50);
-  console.log("The nationality of my father is " + myFather.nationality); 
+//   const myFather = new Person("Manoj", "Shinde", 50);
+//   console.log("The nationality of my father is " + myFather.nationality); 
 

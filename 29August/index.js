@@ -9,6 +9,7 @@ function add(event){
     let link = document.getElementById('link').value
     let name = document.getElementById('name').value
     let category = document.getElementById('select').value
+    
     let object =  {
         imgLink:link,
         head1:name,
@@ -27,4 +28,3 @@ function add(event){
     container.append(div);
     
 }
-​

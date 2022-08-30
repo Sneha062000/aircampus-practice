@@ -197,4 +197,16 @@
 // console.log(answer);
 
 
+//sort
+// const numbers = [4, 2, 5, 1, 3];
+// numbers.sort((a, b) => a - b);
+// console.log(numbers);
 
+
+const users = [
+  { name: 'sneha', age: 100 },
+  { name: 'karishma', age: 200 },
+  { name: 'tejal', age: 50 }
+]
+const sorted = users.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))
+console.log(sorted)
