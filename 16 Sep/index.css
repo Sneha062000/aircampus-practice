@@ -1,14 +1,34 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    justify-content: space-around;
+    background-image: linear-gradient(red, yellow, green, blue, purple);
+    height: 430px;
 }
 
 .cityName{
+    background-color: yellow;
     margin-top: 100px;
+    width: 300px;
+    height: 20px;
+    border:none;
+   
 }
 
+.submitButton{
+    background-color: yellow;
+    width:80px;
+    height:25px;
+    border:none;
+   
+}
+
+/* .submitButton:hover{
+    background-color: rgb(238, 238, 34)
+} */
 .container{
+    display: flex;
+    justify-content: center;
     padding:10px;
     margin-top: 20px;
 }

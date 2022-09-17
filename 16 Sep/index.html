@@ -10,7 +10,7 @@
 <body>
     <div>
         <div>
-        <input type="text" placeholder="Enter your city name" class="cityName">
+        <input type="text" placeholder="Your city name" class="cityName">
         <button type="submit" class = "submitButton">Submit</button>
     </div>
     <div class="container">
@@ -31,9 +31,11 @@
         .then(data=>{
             let result= `<div><h1>City : ${data.name}</h1> 
                 <h1>Temp = ${Math.floor(data["main"].temp-273)} °C</h1>
-                <h1> Pressure = ${data["main"].pressure} </h1>
-                <h1> humidity = ${data["main"].humidity} </h1>
+                <h1> sunrise = ${data["sys"].sunrise}</h1> 
+                <h1> sunset =${data["sys"].sunset}</h1> 
                 </div>`
+                // <h1> Pressure = ${data["main"].pressure} </h1>
+                // <h1> humidity = ${data["main"].humidity} </h1>
             let container = document.querySelector(".container")
             container.innerHTML = result
             console.log(data)
