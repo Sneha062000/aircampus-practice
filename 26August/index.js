@@ -31,7 +31,9 @@ buttonClass.addEventListener('click',function(event){
           
             
         }
-    }).catch(err=>alert("error"))
+       
+    })
+     .catch(err=>alert("error"))
 })
 
 

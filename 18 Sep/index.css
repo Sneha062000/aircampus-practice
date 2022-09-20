@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    font-size: larger;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
