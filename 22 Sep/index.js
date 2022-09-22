@@ -30,3 +30,22 @@
 // }
 
 // console.log(person.fullName.call(person2, "nashik", "India")); 
+
+
+
+const person = {
+  firstName: "sneha",
+  lastName: "shinde",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+
+const member = {
+  firstName: "rajesh",
+  lastName: "shinde",
+};
+
+let fullName = person.fullName.bind(member);
+
+console.log(fullName());
