@@ -132,8 +132,8 @@
 // console.log(a,b)
 
 
-//comparision operator
-//equality operator
+// comparision operator
+// equality operator
 // let a="10",b=10;
 // console.log(a==b)
 

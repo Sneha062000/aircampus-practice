@@ -125,7 +125,13 @@
 //}
 
 
-function Myself(name,city){
-    console.log(`My name is ${name}.I am from ${city}`)
+// function Myself(name,city){
+//     console.log(`My name is ${name}.I am from ${city}`)
+// }
+// Myself("Sneha","city")
+
+
+for(let i=2;i<=20;i+=2)
+{
+  console.log(i)
 }
-Myself("Sneha","city")
