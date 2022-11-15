@@ -15,3 +15,32 @@
 // Objects are always objects
 
 
+// object creation
+// const person = { 
+//     name: 'sneha',
+//     age: 20
+// };
+// console.log(typeof person)
+
+
+
+
+// Using dot Notation
+// const person = {
+//   name: "sneha",
+//   age: 20,
+// };
+
+// accessing property
+// console.log(person.name);
+
+
+
+// Using bracket Notation
+// const person = {
+//   name: "sneha",
+//   age: 20,
+// };
+
+// accessing property
+// console.log(person["name"]); 
