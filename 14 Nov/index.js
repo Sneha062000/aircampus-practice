@@ -44,3 +44,34 @@
 
 // accessing property
 // console.log(person["name"]); 
+
+
+// Nested Objects
+// nested object
+const student = { 
+    name: 'sneha', 
+    age: 20,
+    marks: {
+        science: 70,
+        math: 75
+    }
+}
+
+// accessing property of student object
+console.log(student.marks); // {science: 70, math: 75}
+
+// accessing property of marks object
+console.log(student.marks.math); // 75
+
+
+
+const person = {
+  name: "Sneha",
+  age: 30,
+  // using function as a value
+  greet: function () {
+    console.log("hello");
+  },
+};
+
+person.greet();
