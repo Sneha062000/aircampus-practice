@@ -1,10 +1,85 @@
-body{
+/* body{
     background-color: black;
-}
-.container{
+} */
+/* .container{
     background-color: aqua;
     height: 200px;
     width: 200px;
    margin-left: auto;
    margin-right: auto;
+} */
+
+.container1{
+    background-color: aqua;
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 {
+    background-color: purple;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    
+}
+.container3 {
+    background-color: pink;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    
+}
+.container4 {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.container5 {
+    background-color: orange;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.container6 {
+    background-color: goldenrod;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+.container7 {
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
+.container8 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.container9 {
+    background-color: greenyellow;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.container10 {
+    background-color: silver;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+.container11 {
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
 }
