@@ -129,6 +129,22 @@
 // console.log(arr)
 
 
-let arr=["sneha","manoj","shinde"]
-arr.splice(0,1,"g","m")
-console.log(arr)
+// let arr=["sneha","manoj","shinde"]
+// arr.splice(0,1,"g","m")
+// console.log(arr)
+
+
+//practice
+// var a;
+// console.log(a)
+// var a=10;
+// console.log(a)
+// var a="hello world"
+// console.log(a)
+
+// let a;
+// console.log(a);
+// let a = 10;
+// console.log(a);
+// let a = "hello world";
+// console.log(a);
