@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input" placeholder="add something">
+    <button onclick="addItem()" class="buttonClass">Add</button>
+    <button onclick="removeItem()" class="buttonClass">Delete</button>
+
+    <div id="container"><br></div>
+</body>
+<script>
+function addItem() {
+            var a = document.getElementById("container");
+            var input = document.getElementById("input");
+            var paragraph = document.createElement("paragraph");
+            paragraph.setAttribute('id', input.value);
+            paragraph.appendChild(document.createTextNode(input.value));
+            a.appendChild(paragraph);
+            // candidate.value="";
+            console.log("paragraph")
+        }
+
+
+         function removeItem() {
+ 
+            // Declaring a variable to get select element
+            var a = document.getElementById("container");
+            var input = document.getElementById("input");
+            var item = document.getElementById(input.value);
+            a.removeChild(item);
+        }
+</script>
+</html>
