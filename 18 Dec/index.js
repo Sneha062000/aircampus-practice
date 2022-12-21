@@ -194,3 +194,45 @@
 // let a = 10;
 // let b = 5;
 // (a>b) ? console.log("a is greater than b"):console.log("b is greater than a")
+
+
+// let newPromise=new                                            
+// promise((resolve, reject) => {
+//     myResolve();
+//     myReject();
+// });
+
+// var scope = "global scope";
+// function check() {
+//   var scope = "local scope";
+//   function f() {
+//     return scope;
+//   }
+//   return f;
+// }
+
+
+// function func1() {
+//   setTimeout(() => {
+//     console.log(x);
+//     console.log(y);
+//   }, 3000);
+
+//   var x = 2;
+//   let y = 12;
+// }
+// func1();
+
+
+// let arr=[a,b,c,d,e]
+// arr.find(2)
+// console.log(arr)
+
+
+
+// import (useState) from "React"
+
+// function name(){
+//     const[name,setName]=useState("");
+// }
+
