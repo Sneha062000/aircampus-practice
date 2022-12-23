@@ -56,12 +56,49 @@
 
 
 
-// program to display a name
-function greet(name, lastName) {
-    console.log('Hello' + ' ' + name + ' ' + lastName);
-}
+// // program to display a name
+// function greet(name, lastName) {
+//     console.log('Hello' + ' ' + name + ' ' + lastName);
+// }
 
-// passing argument to setTimeout
-setTimeout(greet, 1000, 'John', 'Doe');
+// // passing argument to setTimeout
+// setTimeout(greet, 1000, 'John', 'Doe');
+
+
+
+// // program to display a text using setInterval method
+// function greet() {
+//     console.log('Hello world');
+// }
+
+// setInterval(greet, 1000);
+
+
+
+
+// Example 3: Use clearInterval() Method
+
+// program to stop the setInterval() method after five times
+
+let count = 0;
+
+// function creation
+let interval = setInterval(function(){
+
+    // increasing the count by 1
+    count += 1;
+
+    // when count equals to 5, stop the function
+    if(count === 5){
+        clearInterval(interval);
+    }
+
+    // display the current time
+    let dateTime= new Date();
+    let time = dateTime.toLocaleTimeString();
+    console.log(time);
+
+}, 2000);
+
 
 
