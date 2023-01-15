@@ -28,12 +28,26 @@
 
 
 // closures
-function Welcome(name) {
-  var name1 = function (message) {
-    console.log(message + " " + name);
-  };
-  return name1;
-}
-var myFunction = Welcome("sneha");
-myFunction("Welcome "); //Output: Welcome John
-// myFunction("Hello Mr."); //output: Hello Mr.John
+// function Welcome(name) {
+//   var name1 = function (message) {
+//     console.log(message + " " + name);
+//   };
+//   return name1;
+// }
+// var myFunction = Welcome("sneha");
+// myFunction("Welcome "); //Output: Welcome John
+// // myFunction("Hello Mr."); //output: Hello Mr.John
+
+
+// function names() {
+//   const name = "sneha";
+//   function displayName() {
+//     console.log(name);
+//   }
+//   return displayName;
+// }
+
+// const myNames = names();
+// myNames();
+
+
