@@ -10,7 +10,7 @@ function callMe() {
 }
 
 // passing function as an argument
-call("sneha", callMe);
+
 
 
 // function add() {
@@ -74,3 +74,15 @@ call("sneha", callMe);
 // console.log(x()); 
 // console.log(x()); 
 // console.log(a); 
+
+
+var obj = {
+  a:10,
+  b:function(){
+    return this.a;
+  }
+
+};
+console.log(obj.b.bind(obj)());
+console.log(obj.b.call(obj));
+console.log(obj.b.apply(obj));
