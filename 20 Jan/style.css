@@ -1,0 +1,12 @@
+.container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap:10px;
+    
+}
+.container > div{
+    background-color: blue;
+    height:50px;
+    width: 50px;
+}
