@@ -119,3 +119,41 @@
 // 20. unshift( )
 // This method adds one or more elements to the beginning of an array and returns the new length of the array.
 
+
+// spread(...)operator  just for example written here
+// let arr=[1,2,3,4,5];
+// console.log(...arr)
+
+// flat
+// let arr=[1,[2,3],[4,5]]
+// console.log(arr.flat())
+
+// let arr=[1,[2,3],[4,5]]
+// console.log(...arr.flat())
+
+// flatten an array using flat function .can use any inbuild function.
+
+// let arr=[1,2,3,[4,5]];
+// let result=[];
+// for(let i=0;i<=arr.length;i++){
+//     if(Array.isArray(arr[i])){
+
+//     result.push(...arr[i]);
+// }else{
+//     result.push(arr[i])
+// }
+// }
+// console.log(result)
+
+let arr=[1,2,3,[4,5]];
+let result1=[];
+for(let i=0;i<=arr.length;i++){
+    if(Array.isArray(arr[i])){
+
+        result1.push(...arr[i]);
+    }else{
+               result1.push(arr[i])
+    }
+}
+console.log(result1)
+
