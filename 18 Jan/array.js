@@ -145,15 +145,15 @@
 // }
 // console.log(result)
 
-let arr=[1,2,3,[4,5]];
-let result1=[];
-for(let i=0;i<=arr.length;i++){
+let arr=[1,[2,3],[4,5]];
+let result=[];
+for(let i=0;i<arr.length;i++){
     if(Array.isArray(arr[i])){
-
-        result1.push(...arr[i]);
+        result.push(...arr[i]);
     }else{
-               result1.push(arr[i])
+        result.push(arr[i])
     }
 }
-console.log(result1)
+console.log(result)
+
 
