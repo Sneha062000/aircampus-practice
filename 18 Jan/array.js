@@ -5,14 +5,26 @@
 // const mapped = arr.map(element=>element+5);
 // console.log(mapped);
 
+// let arr=[1,2,3,4,5,6]
+// // arr.map(arr=>arr+5);
+// console.log(arr.map(arr=>arr+5))
 
 // 2. filter( )
 // This method creates a new array with only elements that passes the condition inside the provided function.
-
+// const arr=[1,2,3,6,4,3,2,1];
+// const filtered=arr.filter(element=>element===2 || element===3)
+// console.log(filtered)
 
 // 3. sort( )
 // This method is used to arrange/sort array’s elements either in ascending or descending order.
+// let arr=[1,2,5,3,1,2,2,6,7];
+// arr.sort((a,b)=>a-b)
+// console.log(arr)
 
+
+// let arr=[1,2,5,3,1,2,2,6,7];
+// arr.sort((a,b)=>a-b)
+// console.log(arr[arr.length-1])
 
 // 4. forEach( )
 // This method helps to loop over array by executing a provided callback function for each element in an array.
@@ -63,7 +75,6 @@
 
 // 10. reduce( )
 // This method applies a function against an accumulator and each element in the array to reduce it to a single value.
-
 // const arr=[1,2,3,4,5,6];
 // const reduced=arr.reduce((total,current)=>total+current)
 // console.log(reduced)
@@ -98,27 +109,37 @@
 
 // 15. slice( )
 // This method returns a new array with specified start to end elements.
+// let arr=["S","n","e","h","a"];
 
+// console.log(arr.slice(0,2))
 
 // 16. reverse( )
 // This method reverses an array in place. Element at last index will be first and element at 0 index will be last.
-
+// let arr=[1,2,3,4,5,6,7]
+// console.log(arr.reverse())
 
 // 17. push( )
 // This method adds one or more elements to the end of array and returns the new length of the array.
-
-
+// let arr=["sneha","manoj"]
+// console.log(arr.push("shinde"))
+// console.log(arr)
 // 18. pop( )
 // This method removes the last element from the end of array and returns that element.
-
+// let arr = ["sneha", "manoj"];
+// console.log(arr.pop("shinde"));
+// console.log(arr);
 
 // 19. shift( )
 // This method removes the first element from an array and returns that element.
-
+// let arr = ["sneha", "manoj"];
+// console.log(arr.shift("shinde"));
+// console.log(arr);
 
 // 20. unshift( )
 // This method adds one or more elements to the beginning of an array and returns the new length of the array.
-
+// let arr = ["sneha", "manoj"];
+// console.log(arr.unshift("shinde"));
+// console.log(arr);
 
 // spread(...)operator  just for example written here
 // let arr=[1,2,3,4,5];
@@ -145,15 +166,16 @@
 // }
 // console.log(result)
 
-let arr=[1,[2,3],[4,5]];
-let result=[];
-for(let i=0;i<arr.length;i++){
-    if(Array.isArray(arr[i])){
-        result.push(...arr[i]);
-    }else{
-        result.push(arr[i])
-    }
-}
-console.log(result)
+// let arr=[1,[2,3],[4,5]];
+// let result=[];
+// for(let i=0;i<arr.length;i++){
+//     if(Array.isArray(arr[i])){
+//         result.push(...arr[i]);
+//     }else{
+//         result.push(arr[i])
+//     }
+// }
+// console.log(result)
+
 
 
