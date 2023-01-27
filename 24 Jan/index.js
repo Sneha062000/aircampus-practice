@@ -17,3 +17,10 @@ const ul=document.querySelector("ul")
 const li=document.createElement("li")
 ul.append (li)
 li.innerText="sanjana"
+
+
+const button = document.querySelector(".btn");
+button.addEventListener("click" ,hello)
+function hello(){
+    console.log("hello")
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/747da52fde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+         <h1 class="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"><i class="fa-solid fa-star"></i></h1>
+         <h1 class="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"><i class="fa-solid fa-star"></i></h1>
+        <h1 class="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"><i class="fa-solid fa-star"></i></h1>
+        <h1 class="items" onmouseover="mouseOver()" onmouseout="mouseOut()"><i class="fa-solid fa-star"></i></h1>
+        <h1 class="items" onmouseover="mouseOver()" onmouseout="mouseOut()"><i class="fa-solid fa-star"></i></h1>
+        
+
+         <!-- <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over me</h1> -->
+</div> 
+<script>
+function mouseOver() {
+//   document.getElementById("demo").style.color = "red";
+const h1 = document.querySelectorAll(".demo");
+for (let i = 0; i < h1.length; i++) {
+  h1[i].style.color = "blue";
+}
+console.log(h1);
+}
+
+function mouseOut() {
+  const h=document.querySelectorAll(".demo").style.color = "yellow";
+}
+    
+</script>
+    <!-- <script src="index2.js"></script> -->
+</body>
+</html>
