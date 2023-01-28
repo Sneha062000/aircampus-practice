@@ -48,3 +48,33 @@
 // // arr.reverse();
 // // arr.join("/")
 // console.log(arr.join("/"));
+
+
+// let a=10
+
+// let Func=function(){
+//     let b=20;
+//     console.log(a,b)
+//     let innerfunc=function(){
+//         let c=30;
+//         console.log(a,b,c)
+//     }
+//     return innerfunc()
+// }
+// Func()
+// // console.log(Func())
+
+
+// function outerfunc(){
+// let a=10;
+// function innerfunc(){
+//     console.log(a)
+// }
+// return innerfunc()
+// }
+// outerfunc()
+
+
+// let firstorder=()=>console.log("i am a first order function")
+// let higherorder=(Returnfirstorder)=>Returnfirstorder();
+// higherorder(firstorder)
