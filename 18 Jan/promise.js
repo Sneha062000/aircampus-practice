@@ -17,16 +17,45 @@
 //   }
 // );
 
-let cars = new Promise(function(resolve,reject){
-  let fuel_tank=true;
-  if(fuel_tank){
-    resolve();
-  }else{
-    reject();
-  }
-});
-cars.then(function(){
-  console.log("fuel_tank is full")
-}).catch(function(){
-  console.log("error")
-})
+// let cars = new Promise(function(resolve,reject){
+//   let fuel_tank=true;
+//   if(fuel_tank){
+//     resolve();
+//   }else{
+//     reject();
+//   }
+// });
+// cars.then(function(){
+//   console.log("fuel_tank is full")
+// }).catch(function(){
+//   console.log("error")
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
