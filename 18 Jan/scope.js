@@ -62,3 +62,32 @@
 // console.log(a)
 
 // function scope or local scope
+// var a=10;
+// function func(){
+//     var b=10;
+//     console.log(a);
+//     console.log(b)
+// }
+// func()
+// console.log(a);
+// console.log(b)
+
+// let a = 10;
+// function func() {
+//   let b = 10;
+//   console.log(a);
+//   console.log(b);
+// }
+// func();
+// console.log(a);
+// console.log(b);
+
+// const a = 10;
+// function func() {
+//   const b = 10;
+//   console.log(a);
+//   console.log(b);
+// }
+// func();
+// console.log(a);
+// console.log(b);
