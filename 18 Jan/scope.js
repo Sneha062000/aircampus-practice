@@ -37,3 +37,28 @@
 //   console.log(carName);
 //   // Function Scope
 // }
+
+
+// block scope 
+// { 
+//     var   a=10;
+//     // const a=10;
+//     // let a=10;
+//     console.log(a)
+// }
+// console.log(a)
+
+
+// global scope
+
+// // var a=10;
+// const a=10;
+// // let a=10;
+// function func(){
+//     console.log(a)
+// }
+// func() 
+// // invoked the function
+// console.log(a)
+
+// function scope or local scope

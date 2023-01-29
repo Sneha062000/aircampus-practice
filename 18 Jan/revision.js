@@ -75,6 +75,61 @@
 // outerfunc()
 
 
-// let firstorder=()=>console.log("i am a first order function")
-// let higherorder=(Returnfirstorder)=>Returnfirstorder();
-// higherorder(firstorder)
+// let firstorder=()=>
+//     console.log("i am a first order function")
+
+//     let higherorder=(returnfirstorder)=>returnfirstorder();
+//     higherorder(firstorder)
+
+
+// setTimeout(()=>{
+//     console.log("hello")
+// },1000)
+
+
+// setTimeout(displaySneha,1000);
+// function displaySneha(){
+//     console.log("sneha")
+// }
+
+
+// setInterval(()=>{
+//     console.log("hello")
+// },1000)
+
+// setInterval(displayhello,1000);
+// function displayhello(){
+//     console.log("Hello")
+// }
+
+
+// let cars= new Promise(function(resolve,reject){
+//     let fuel_tank=true;
+//     if(fuel_tank){
+//         resolve();
+//     }else{
+//         reject();
+//     }
+// })
+// cars.then(function(){
+//     console.log("fuel_tank is full")
+// }).catch(function(){
+//     console.log("error")
+// })
+
+// let arr=[1,2,3,[4,5],7];
+// let result=[];
+// for(i=0;i<arr.length;i++){
+//     if(Array.isArray(arr[i])){
+//         result.push(...arr[i])
+//     }else{
+//         result.push(arr[i])
+//     }
+   
+// }
+// console.log(result)
+
+
+// for(var i=0; i<5; i++){
+//     console.log(i)
+// }
