@@ -47,3 +47,18 @@
 //     return x*x
 // }
 // console.log(square(2))
+
+
+
+
+// anonymous function
+// the anonymous function is a function without a name
+// syntax
+// let show=(function(){
+// console.log("anonymous function")
+// })
+// show()
+
+// setTimeout(function(){
+//     console.log("something")
+// },1000)
