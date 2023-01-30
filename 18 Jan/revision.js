@@ -133,3 +133,52 @@
 // for(var i=0; i<5; i++){
 //     console.log(i)
 // }
+
+// // block scope
+// {
+//     var a=10
+//     // let a=10;
+//     // const a=10;
+//     console.log(a)
+// }
+
+// console.log(a)
+
+// // global scope
+// // let a=10;
+// // var a=10;
+// const a=10;
+// function Func(){
+//     console.log(a)
+// }
+// Func()
+// console.log(a)
+
+// function scope or local scope
+// var a=10;
+// function Func(){
+//    const b=20;
+//     console.log(a)
+//     console.log(b)
+// }
+// Func()
+// console.log(a)
+// console.log(b)
+
+
+// function add(a,b){
+//     return a+b;
+// }
+// console.log(add(10,20))
+
+// const add=function(a,b){
+//     return a+b;
+
+// }
+
+// console.log(add(10,20))
+
+const add=(a,b)=>{
+return a+b
+}
+console.log(add(10,20))
