@@ -178,7 +178,43 @@
 
 // console.log(add(10,20))
 
-const add=(a,b)=>{
-return a+b
-}
-console.log(add(10,20))
+// const add=(a,b)=>{
+// return a+b
+// }
+// console.log(add(10,20))
+
+// let arr=[1,2,[3,4,5]];
+// let result=[];
+// for (i=0;i<arr.length;i++){
+//     if(Array.isArray(arr[i])){
+//         result.push(...arr[i])
+//     }else{
+//         result.push(arr[i])
+//     }
+// }
+// console.log(result)
+
+
+// let cars=new Promise(function(resolve,reject){
+//     let fuel_tank=true;
+//     if(fuel_tank){
+//         resolve()
+//     }else{
+//         reject()
+//     }
+// })
+
+// cars.then(function(){
+//     console.log("fuel_tank is full")
+// }).catch(function(){
+//     console.log("error")
+// })
+
+// let arr=[1,2,4,5]
+// let reduced=arr.reduce((total,current)=>total+current)
+// console.log(reduced)
+
+let arr=[6,3,2,1,5,7]
+arr.sort((a,b)=>a-b)
+
+console.log(arr[arr.length-1])

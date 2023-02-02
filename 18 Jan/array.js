@@ -175,7 +175,4 @@
 //         result.push(arr[i])
 //     }
 // }
-// console.log(result)
-
-
-
+// console.log(result);
