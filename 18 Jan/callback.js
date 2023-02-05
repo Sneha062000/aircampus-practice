@@ -18,4 +18,4 @@ function call(num,num1,callback){
     let sum = num+num1;
     callback(sum)
 }
-console.log(5,5)
+console.log(8,5)
